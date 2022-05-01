@@ -89,7 +89,7 @@ st.write("From the jointplot, we could see there are two clusters, the cluster o
 
 st.markdown("""---""")
 
-st.pyplot(sns.pairplot(ad_data,hue='Clicked on Ad', height=2))
+#st.pyplot(sns.pairplot(ad_data,hue='Clicked on Ad', height=2))
 st.write('From the pairplot, we could see the correlation and relation between each of the numeric variables with the hue of clicked on ad. We could see there are two clusters in each of the plot, so it could be concluded that these variables could affect the numbers of click on ad')
 
 st.markdown("""---""")
